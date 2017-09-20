@@ -6,7 +6,7 @@ the most popular shops in Madrid. It displays a map with the shop’s location i
 
 #Requirements
 
-* Xcode 9
+* Xcode 9 (Should work with Xcode 8)
 * Swift 4
 * iOS 10.0 (Because of using NSPersistentContainer. If you like to use a previous iOS version, just change CoreDataStack class)
 
