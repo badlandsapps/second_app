@@ -17,6 +17,14 @@ the most popular shops in Madrid. It displays a map with the shop’s location i
 * Kingfisher: Kingfisher is a lightweight, pure-Swift library for downloading and caching images from the web
 * SwiftyJson: SwiftyJSON makes it easy to deal with JSON data in Swift.
 
+#
+* Interactor - Contains the application business logic for a specific use case
+** DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
+** DownloadCityDataInformationAndSaveItInteractor: Execute the DownloadCityDataInformationInteractor and save the information in CoreData
+** ExecuteOnceInteractor: Check if data is persisted
+** SetExecuteOnceInteractor: Set that data has been persisted
+** ReachabilityInteractor: Check internet reachability
+
 #Bonus
 
 * Activities: As a bonus, we have added Madrid’s activities. Now you can search for things to do in Madrid
