@@ -21,9 +21,9 @@ the most popular shops in Madrid. It displays a map with the shop’s location i
 * Interactor - Contains the application business logic for a specific use case
   * DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
   * DownloadCityDataInformationAndSaveItInteractor: Execute the DownloadCityDataInformationInteractor and save the information in CoreData
-* * ExecuteOnceInteractor: Check if data is persisted
-* * SetExecuteOnceInteractor: Set that data has been persisted
-* * ReachabilityInteractor: Check internet reachability
+  * ExecuteOnceInteractor: Check if data is persisted
+  * SetExecuteOnceInteractor: Set that data has been persisted
+  * ReachabilityInteractor: Check internet reachability
 
 # Bonus
 
