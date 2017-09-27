@@ -12,22 +12,23 @@ the most popular shops in Madrid. It displays a map with the shop’s location i
 
 # Cocoapods
 
-
 * Fillable: Completely customizable progress based loaders drawn using custom CGPaths written in Swift
 * Kingfisher: Kingfisher is a lightweight, pure-Swift library for downloading and caching images from the web
 * SwiftyJson: SwiftyJSON makes it easy to deal with JSON data in Swift.
 
 # MVC
 * Interactor - Contains the application business logic for a specific use case
-  * Procotol
-     * DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
+   * DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
    * SaveCityDataInformationInteractor: Save data information in Core Data
-   * SaveCityDataInformationImagesInteractor: Save images 
+   * SaveCityDataInformationImagesInteractor: Save images in disk with KingFisher library
    * ExecuteOnceInteractor: Check if data was store in CoreData
    * SetExecuteOnceInteractor: Set a flag data has been persisted
-  
-  * DownloadCityDataInformationAndSaveItInteractor: Execute DownloadCityDataInformationInteractor and save the information in CoreData
-  
+ 
+ * Model
+   * CityDataInformation: Shop and Activity information
+   * ShopCD: Shop CoreData entity
+   * ActivityCD: Activity CordeData entity
+ 
 # Bonus
 
 * Activities: As a bonus, we have added Madrid’s activities. Now you can search for things to do in Madrid
