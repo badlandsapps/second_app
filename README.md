@@ -19,12 +19,15 @@ the most popular shops in Madrid. It displays a map with the shop’s location i
 
 # MVC
 * Interactor - Contains the application business logic for a specific use case
-  * DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
+  * Procotol
+   * DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
+   * SaveCityDataInformationInteractor: Save data information in Core Data
+   * SaveCityDataInformationImagesInteractor: Save images 
+   * ExecuteOnceInteractor: Check if data was store in CoreData
+   * SetExecuteOnceInteractor: Set a flag data has been persisted
+  
   * DownloadCityDataInformationAndSaveItInteractor: Execute DownloadCityDataInformationInteractor and save the information in CoreData
-  * ExecuteOnceInteractor: Check if data was store in CoreData
-  * SetExecuteOnceInteractor: Set a flag data has been persisted
-  * ReachabilityInteractor: Check internet reachability
-
+  
 # Bonus
 
 * Activities: As a bonus, we have added Madrid’s activities. Now you can search for things to do in Madrid
