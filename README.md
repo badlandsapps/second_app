@@ -20,7 +20,7 @@ the most popular shops in Madrid. It displays a map with the shop’s location i
 # MVC
 * Interactor - Contains the application business logic for a specific use case
   * Procotol
-   * DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
+     * DownloadCityDataInformationInteractor: Retrieve json from an url and parse it to CityDataInformation
    * SaveCityDataInformationInteractor: Save data information in Core Data
    * SaveCityDataInformationImagesInteractor: Save images 
    * ExecuteOnceInteractor: Check if data was store in CoreData
